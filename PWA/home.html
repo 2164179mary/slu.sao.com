@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home: CashFe</title>
+        <link rel="stylesheet" type="text/css" href="CSS/home.css">
+    </head>
+
+    <body>
+     <header>
+        <div id="top">
+            <img src="" alt="CashFe Logo">
+            <h1>CashFe</h1>
+        </div>
+    </header>
+        <div id="budget">
+            <h2>Budget</h2>
+            <form >
+                <input id = "budget-entry" type="text" placeholder= "Enter your budget..." name="budget" required autofocus>
+            
+                <input id = "button-click" type="submit" value="OK">
+            </form>
+        </div>
+            
+        <div id="filter">
+            <div class="filter-class">
+                <h2>Commodity Category</h2>
+                <form id="category" required>
+                    <input type="checkbox" name="category" value="rice">Cakes
+                    <input type="checkbox" name="category" value="cookies">Cookies
+                    <input type="checkbox" name="category" value="coffee">Coffee
+                    <input type="checkbox" name="category" value="frappe">Frappe
+                    <input type="checkbox" name="category" value="juice">Juice
+                    <input type="checkbox" name="category" value="milk">Milk Tea
+                    <input type="checkbox" name="category" value="pasta">Pasta
+                    <input type="checkbox" name="category" value="rice">Rice Meal
+                </form>
+            </div>
+            <div class="filter-class" id = "availability">
+                <h2>Wi-Fi Availability</h2>
+                <form>
+                    <input type="radio" name="wifi" value="yes">Yes
+                    <input type="radio" name="wifi" value="no">No
+                </form>
+            </div>
+            <div class="filter-class">
+                <h2>Cafe Ambiance</h2>
+                <input type="checkbox" name="ambiance" value="cozy">Cozy
+                <input type="checkbox" name="ambiance" value="quiet">Quiet
+                <input type="checkbox" name="ambiance" value="casual">Casual
+            </div>
+        </div>            
+    </body>
+</html>

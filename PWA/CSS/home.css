@@ -1,0 +1,47 @@
+@font-face{
+    font-family: Quesha;
+    src: url(Fonts/Quesha.ttf);
+}
+
+body{
+    width: 100%;
+    margin: 0%;
+}
+#budget{
+    display: block;
+    text-align: center;
+}
+#top{
+    background-color:black;
+    color:white;
+    font-family: Quesha;
+    height: auto;
+}
+#top img, #top h1{
+    display: inline-block;
+}
+#top h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+h2 {
+    font-family: Quesha;
+    font-size: 25px;
+}
+#budget-entry {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+#button-click {
+    padding 15px 25px;
+    box-sizing: border-box;
+    margin: 15px 0;
+}
+#filter {
+    text-align: center;
+}
+#availability input {
+    display: inline-block;
+}
+
